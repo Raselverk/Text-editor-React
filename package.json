@@ -2,7 +2,7 @@
   "name": "text-editor",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://raselverk.github.io/Text-editor-React/text-editor",
+  "homepage": "https://raselverk.github.io/Text-editor-React/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.8.6",
