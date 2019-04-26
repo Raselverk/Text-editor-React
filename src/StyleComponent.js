@@ -51,11 +51,11 @@ class StyleComponent extends Component {
 
         			<label>
           					Font Family: 
-          						<select >
-            							<option onClick={this.props.fontFamilyChange} value="Tahoma">Tahoma</option>
-            							<option onClick={this.props.fontFamilyChange} value="Vernada">Vernada</option>
-            							<option onClick={this.props.fontFamilyChange} value="Times new roman">Times new roman</option>
-         						 </select>
+          					<select >
+            					<option onClick={this.props.fontFamilyChange} value="Tahoma">Tahoma</option>
+            					<option onClick={this.props.fontFamilyChange} value="Vernada">Vernada</option>
+         						<option onClick={this.props.fontFamilyChange} value="Times new roman">Times new roman</option>
+             				 </select>
         			</label>
         		</form>
 
@@ -64,10 +64,11 @@ class StyleComponent extends Component {
         			<label>
           				Bold
 				          <input
-									 onClick={this.props.fontBoldChange}
+						    onChange = {this.props.fontBoldChange}
+						    defaultChecked = {this.props.FontNormalChange}
 				            name="bold"
-										type="checkbox"
-										value="bold" />
+							type="checkbox"
+							value="normal" />
         			</label>
 
         			<label>

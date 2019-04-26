@@ -5,7 +5,6 @@ import DisplayComponent from './DisplayComponent.js';
 import ButtonComponent from './ButtonComponent.js';
 import EditComponent from './EditComponent.js';
 import StyleComponent from './StyleComponent.js';
-
   
 
 class App extends Component {
@@ -16,7 +15,9 @@ class App extends Component {
 		textarea: '',
     fontSize: '',
     fontName: '',
-    fontBold: ''
+    fontBold: 'bold',
+    fontNormal: 'normal',
+    fontWeight: 'normal'
     }
   }
 
@@ -48,11 +49,18 @@ class App extends Component {
       fontName: e.target.value
     });
   }
-  fontBoldChange(e){
-    this.setState({
-      fontBold: e.target.value 
+  fontBoldChange(){
+     this.setState({
+      fontBold: "bold"
     });
   }
+   fontNormalChange(){
+       this.setState({
+      fontBold: "normal"
+    });
+  }
+  
+  
 
    render() {
      return (
@@ -63,7 +71,7 @@ class App extends Component {
                 par = {this.state.par}
                 fontSize = {this.state.fontSize}
                 fontFamily = {this.state.fontName}
-                fontBold = {this.state.fontBold}
+                fontWeight = {this.state.fontWeight}
             />
 
             <ButtonComponent
@@ -80,10 +88,9 @@ class App extends Component {
                fontSizeChange = {this.fontSizeChange.bind(this)}
                fontName = {this.state.fontName}
                fontFamilyChange = {this.fontFamilyChange.bind(this)}  
-               fontBold = {this.state.fontBold}  
-               fontBoldChange = {this.fontBoldChange.bind(this)}     
+               fontBoldChange = {this.fontBoldChange.bind(this)} 
+               fontNormalChange = {this.fontNormalChange.bind(this)} 
             />
-
       </div>
     );
   }

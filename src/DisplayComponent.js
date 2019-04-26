@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import  React,{ Component } from 'react';
 import './DisplayComponent.css';
 
 class DisplayComponent extends Component {
@@ -8,10 +8,10 @@ class DisplayComponent extends Component {
                  <p className="DisplayComponentP"
                     style = {{fontSize: this.props.fontSize, 
                               fontFamily: this.props.fontName,
-                              fontWeight: this.props.fontBold}}>
+                              fontWeight: this.props.fontWeight}}>
                       {this.props.par}
                  </p>
-      </div>
+            </div>
         	);
  }
 }
