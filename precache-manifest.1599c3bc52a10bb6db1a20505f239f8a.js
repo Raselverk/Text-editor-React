@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Text-editor-React/static/js/runtime~main.cff5d7d3.js"
   },
   {
-    "revision": "524312399f0a1f9f8365",
+    "revision": "da36e417a1158ff3a5ff",
     "url": "/Text-editor-React/static/js/main.f534d489.chunk.js"
   },
   {
@@ -12,11 +12,11 @@ self.__precacheManifest = [
     "url": "/Text-editor-React/static/js/2.d6a534e5.chunk.js"
   },
   {
-    "revision": "524312399f0a1f9f8365",
-    "url": "/Text-editor-React/static/css/main.4ffd598f.chunk.css"
+    "revision": "da36e417a1158ff3a5ff",
+    "url": "/Text-editor-React/static/css/main.68713643.chunk.css"
   },
   {
-    "revision": "82f153e15d2620daaa0cc84a1a170803",
+    "revision": "f566396745ccaaeaedd386cd036d6e27",
     "url": "/Text-editor-React/index.html"
   }
 ];
